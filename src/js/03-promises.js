@@ -39,5 +39,5 @@ function onFormSubmit(evt) {
       });
     delayRef += stepRef;
   }
-  // evt.currentTarget.reset();
+  evt.currentTarget.reset();
 }
